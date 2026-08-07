@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8212168557774899115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6600239918159599446}
+  - component: {fileID: 2351601345053075478}
+  m_Layer: 0
+  m_Name: GameManager_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6600239918159599446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212168557774899115}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2351601345053075478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212168557774899115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121c23453b2a52e49b9a91c4f10c0054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  levelTimer: 0
+  currentLevelIndex: 0
+  fruitRandomize: 0
+  fruitsCollected: 0
+  totalFruits: 0
+  fruitParent: {fileID: 0}
+  canReactivate: 1
+  audioManager: {fileID: 1631922769286762545, guid: abe1f4b216180d840a1a6940ccf13a43, type: 3}
+  playerManager: {fileID: 4766180596420951787, guid: 6458d82655be53843b92f260a00068c3, type: 3}
+  skinManager: {fileID: 1618820138300562014, guid: ff658bb19bcab15478561a27dfc7a923, type: 3}
+  difficultyManager: {fileID: 4716799369463141225, guid: 29ab142339bc8df4b8b76d1f46fdd402, type: 3}
+  objectCreator: {fileID: 2240232553168473684, guid: d0da79d206a04514dbb26c3479fb40e2, type: 3}
