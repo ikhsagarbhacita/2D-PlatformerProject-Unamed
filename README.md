@@ -21,8 +21,8 @@ This repository showcases practical game programming concepts, focusing on clean
 This project is actively being expanded with the following planned features:
 - Local Split-Screen Multiplayer Implementation: Adding 2-player local split-screen co-op functionality using Unity's New Input System (supporting simultaneous Keyboard & Gamepad controls).
 - Expanded Level Design: Designing new levels with increased verticality and progressive difficulty tailored for both single-player and co-op play.
-- New Enemy Types & AI: Integrating diverse enemy AI behaviors and attack patterns.
-- Environmental Traps & Hazards: Implementing complex hazard mechanics (spikes, falling platforms, saws) to deepen level challenges.
+- New Enemy Types & AI: Integrating diverse enemy AI behaviors and attack patterns (flying enemies, etc).
+- Environmental Traps & Hazards: Implementing complex hazard mechanics (falling ground, moving platform, etc) to deepen level challenges.
 - Architecture & UI Refinement: Continuously updating game architecture and polishing UI state managers for an improved player experience.
 
 # Acknowledgments & Course Basis
